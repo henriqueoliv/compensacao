@@ -1,0 +1,163 @@
+.box {
+    background-color: #fff;
+    display:grid;
+    margin: 10px 0;
+    position: relative;
+    
+}
+.boxIA {
+  background-color: #fff;
+  display:grid;
+  margin: 10px 0;
+  position: relative;
+  grid-template-columns:10% 30% 30% 30% ;
+ 
+}
+
+
+
+    label {
+      padding: 12px 30px;
+      width: 100%;
+      display: block;
+      text-align: left;
+      color: #3C454C;
+      cursor: pointer;
+      position: relative;
+      z-index: 2;
+      transition: color 200ms ease-in;
+      overflow: hidden;
+  
+}
+
+  input[type = "radio"]:checked + label {
+  background-color: #C96567;
+  visibility: visible;
+  color: white;
+}
+   .box:hover  {
+     outline: 4px solid #C96567;
+     transform: scale(1.1);
+     transition: transform .50s;
+     transition: .50;
+     transition-timing-function: ease;
+     z-index:2;
+}
+  
+   .boxIA:hover  {
+     outline: 4px solid #C96567;
+     transform: scale(1.1);
+     transition: transform .50s;
+     transition: .50;
+     transition-timing-function: ease;
+     z-index:2;
+  
+   }
+  
+    input {
+      width: 32px;
+      height: 32px;
+      order: 1;
+      z-index: 2;
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      visibility: hidden;
+      
+    }
+
+.magnitude, .biodiversidade, .abrangencia, .temporalidade, .icap, .iuc {
+  padding: 0 20px;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+  
+
+.boxAB {
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border: 2px #314455 solid;
+  padding: 10px;
+  
+
+  
+}
+
+
+h4, h1 {
+  color:#FBE8A6;
+  
+}
+
+body {
+  background-color: #314455;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  position:relative;
+  text-align: center;
+  top:30px;
+}
+*,
+
+
+html {
+  box-sizing: border-box;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.gridGI{
+  position:relative;
+  top:-60px;
+  display:grid;
+  padding: 0 20px;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+}
+#textoGI {
+  position: relative;
+  top:20px;
+  font-size: 25px;
+  color:white;
+}
+#GI {
+  position: relative;
+  
+  font-size: 50px;
+  color: white;
+}

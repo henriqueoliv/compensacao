@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>A Pen by  henriqueoliv</title>
+  
+  
+  
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Cálculo da Compensação Ambiental</title>
+    <link rel='stylesheet' type='text/css' href='style.css'></head>
+  
+  </head>
+  <body>
+  
+    <h1 id="">Compensação Ambiental</h1>
+    <h2 id=""> Cálculo</h2> 
+    <h3 id=""> Grau de Impacto:</h3>
+   
+   
+    <form id = "ISB">
+     
+       <section class="magnitude">
+            <div class = "headMAG">
+        <h4 id="">Indice de Magnitude (IM)</h4>
+            </div>
+            <div class = "vmag0 box" >
+          <input type="radio" name="MAG" id="mg0" value="0">
+            <label class = "lb" for="mg0">0 : Ausência de impacto ambiental significativo negativo</label>
+            </div>
+            <div class = "vmag1 box">
+          <input type="radio" name="MAG" id="mg1" value="1">
+            <label for="mg1">1 : Pequena magnitude do impacto ambiental negativo em relação ao comprometimento dos recursos ambientais </label>
+            </div>
+            <div class = "vmag2 box">
+          <input type="radio" name="MAG" id="mg2" value="2">
+            <label for="mg2">2 : Média magnitude do impacto ambiental negativo em relação ao comprometimento dos recursos ambientais</label>
+            </div>
+            <div class = "vmag3 box">
+          <input type="radio" name="MAG" id="mg3" value="3">
+            <label for="mg3">3: Alta magnitude do impacto ambiental negativo</label>
+            </div>
+          
+      </section>
+      
+        <section class = "biodiversidade">
+         <h4>Índice de Biodiversidade (IB)</h4>
+            <div class= "box">
+         <input type="radio" name="BIO" id="bio0" value="0">
+            <label for="bio0">0: Biodiversidade se encontra muito comprometida</label>
+            </div>
+            <div class= "box">
+          <input type="radio" name="BIO" id="bio1" value="1">
+            <label for="bio1">1: Biodiversidade se encontra medianamente comprometida</label>
+            </div>
+            <div class= "box">
+          <input type="radio" name="BIO" id="bio2" value="2">
+            <label for="bio2">2: Biodiversidade se encontra pouco comprometida</label>
+            </div>
+            <div class= "box">
+          <input type="radio" name="BIO" id="bio3" value="3">
+            <label for="bio3">3: área de trânsito ou reprodução de espécies consideradas endêmicas ou ameaçadas de extinção</label>
+            </div>
+            
+        </section>
+        
+        <section class = "abrangencia">
+         <h4>Índice de Abrangência (IA)</h4>
+        <div class= "boxIA">
+             
+          <input type="radio" name="ABR" id="ia1" value="1">
+              <label for="ia1" class = "boxAB" >1</label>
+              <label for = "ia1" class = "boxAB"> Impactos limitados à área de uma microbacia</label>
+              <label for = "ia1" class = "boxAB"> Impactos limitados a um raio de 5km </label>
+              <label for = "ia1" class = "boxAB"> Profundidade maior ou igual a 200 metros </label>
+        </div>
+            <div class= "boxIA">
+          <input type="radio" name="ABR" id="ia2" value="2">
+            <label class = "boxAB" for="ia2">2</label>
+            <label class = "boxAB" for="ia2">Impactos que ultrapassem a área de uma microbacia limitados à área de uma bacia de 3a ordem</label>
+            <label class = "boxAB" for="ia2">impactos limitados a um raio de 10km</label>
+            <label class = "boxAB" for="ia2">profundidade inferior a 200 e superior a 100 metros</label>
+                       
+            </div>
+            <div class= "boxIA">
+          <input type="radio" name="ABR" id="ia3" value="3">
+              <label class = "boxAB" for="ia3">3</label>
+              <label class = "boxAB" for="ia3">Impactos que ultrapassem a área de uma bacia de 3a ordem e limitados à área de uma bacia de 1a ordem</label>
+              <label class = "boxAB" for="ia3">Impactos limitados a um raio de 50km</label>
+              <label class = "boxAB" for="ia3">Profundidade igual ou inferior a 100 e superior a 50 metros</label>
+             </div>
+            <div class= "boxIA">
+          <input type="radio" name="ABR" id="ia4" value="4">
+              <label class = "boxAB" for="ia4">4</label>
+              <label class = "boxAB" for="ia4">Impactos que ultrapassem a área de uma bacia de 1a ordem</label>
+              <label class = "boxAB" for="ia4">impactos que ultrapassem o raio de 50km</label>
+              <label class = "boxAB" for="ia4">Profundidade inferior ou igual a 50 metros
+
+</label>
+        </section>
+        
+        <section class = "temporalidade">
+           <h4>Índice de temporalidade (IT)</h4>
+           <div class= "box">
+          <input type="radio" name="TEM" id="it1" value="1">
+            <label for="it1">1: Imediata: até 5 anos após a instalação do empreendimento;</label>
+             </div>
+            <div class= "box">
+          <input type="radio" name="TEM" id="it2" value="2">
+            <label for="it2">2: Curta: superior a 5 e até 15 anos após a instalação do empreendimento;</label>
+             </div>
+            <div class= "box">
+          <input type="radio" name="TEM" id="it3" value="3">
+            <label for="it3">3: Média: superior a 15 e até 30 anos após a instalação do empreendimento;</label>
+             </div>
+            <div class= "box">
+          <input type="radio" name="TEM" id="it4" value="4">
+            <label for="it4">4: Longa: superior a 30 anos após a instalação do empreendimento.</label>
+             </div>
+        </section>
+        
+         <section class = "icap">
+           <h4> Índice Comprometimento de Área Prioritária (ICAP)</h4>
+           <div class= "box">
+            <input type="radio" name="ICAP" id="ic0" value="0">
+              <label for="ic0">0:Inexistência de impactos sobre áreas prioritárias ou impactos em áreas prioritárias totalmente sobrepostas a unidades de conservação.</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="ICAP" id="ic1" value="1">
+              <label for="ic1">1: Impactos que afetem áreas de importância biológica alta</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="ICAP" id="ic2" value="2">
+              <label for="ic2">2: impactos que afetem áreas de importância biológica muito alta</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="ICAP" id="ic3" value="3">
+              <label for="ic3">3: Impactos que afetem áreas de importância biológica extremamente alta ou classificadas como insuficientemente conhecidas</label>
+               </div>
+         </section>
+         
+          <section class = "iuc">
+           <h4> Influência em Unidade de Conservação (IUC)</h4>
+           <div class= "box">
+            <input type="radio" name="IUC" id="iu0" value= "0.15">
+              <label for="iu0">G1: parque (nacional, estadual e municipal), reserva biológica, estação ecológica, refúgio de vida silvestre e monumento natural = 0,15%;</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="IUC" id="iu1" value= "0.10">
+              <label for="iu1">G2: florestas (nacionais e estaduais) e reserva de fauna = 0,10%;</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="IUC" id="iu2" value= "0.10">
+              <label for="iu2">G3: reserva extrativista e reserva de desenvolvimento sustentável = 0,10%;</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="IUC" id="iu3" value= "0.10">
+              <label for="iu3">G4: área de proteção ambiental, área de relevante interesse ecológico e reservas particulares do patrimônio natural = 0,10%; e</label>
+               </div>
+              <div class= "box">
+            <input type="radio" name="IUC" id="iu4" value= "0.05">
+              <label for="iu4">G5: zonas de amortecimento de unidades de conservação = 0,05%.</label>
+               </div>
+         </section>
+         </br>
+         <div class= "gridGI">
+          <button class = "button" type="button" onclick="storeVar ();calcISB ();calcCAP();calcGI();displayGI ()"> Calcular! </button> 
+          
+          <h2 id = "textoGI">O grau de Impacto (GI) do empreendimento é: <em id = "GI"></em></h2>
+          </div>
+  <script src = "script.js"></script>
+  
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  </body>
+</html>
+  
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
