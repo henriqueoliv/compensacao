@@ -54,7 +54,7 @@
   
    }
   
-    input {
+    input[type = "radio"] {
       width: 32px;
       height: 32px;
       order: 1;
@@ -90,9 +90,13 @@
 
   
 }
+h3 {
+  position:relative;
+  text-align: center;
+  color:#FBE8A6;
+}
 
-
-h4, h1 {
+h4, h1{
   color:#FBE8A6;
   
 }
@@ -105,7 +109,12 @@ body {
 h1 {
   position:relative;
   text-align: center;
-  top:30px;
+  top:20px;
+  font-family: 'Kalam', cursive;
+  font-size:50px;
+  color:white;
+  background-color:#277d3f ;
+  padding: 10px;
 }
 *,
 
@@ -127,6 +136,7 @@ html {
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+ 
 }
 
 .button:hover {background-color: #3e8e41}
@@ -160,4 +170,32 @@ html {
   
   font-size: 50px;
   color: white;
+}
+#vr {
+  position: relative;
+  
+  font-size: 50px;
+  color: white;
+}
+a {
+  color:#75aaff;
+  
+}
+
+.vrText {
+  display: relative;
+  background-color:white;
+  padding: 0 20px;
+  max-width: 1000px;
+  min-width: 700px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  left: 10px;
+}
+.vrLabel{
+  position: relative;
+  top:20px;
+  font-size: 25px;
+  color:white;
 }
