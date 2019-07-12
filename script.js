@@ -1,4 +1,5 @@
  
+  
   var im = {num:0};
   var ib = {num:0};
   var ia = {num:0};
@@ -74,11 +75,18 @@ function calcGI(){
    console.log ('resultado com correção GI: ' + resultGI);
 }
   
-/*function blza () { 
-   console.log(im,ib,ia,it,icap,iuc); 
-    console.log(resultISB);
-    console.log(resultICAP);
-}*/
 function displayGI (){
    document.getElementById("GI").innerHTML = resultGI.toFixed(2)
 }
+
+function calcVr () {
+  var valorVR = document.getElementById ("vrInput");
+  var result = resultGI * valorVR.value;
+   console.log("vr" + valorVR.value)
+  console.log("vr" + resultGI)
+   console.log("vr" + result)
+    console.log("vr" + valorVR)
+  document.getElementById("vr").innerHTML = result;
+  
+}
+
