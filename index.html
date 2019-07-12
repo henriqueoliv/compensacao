@@ -1,20 +1,4 @@
 <!DOCTYPE html>
-<html lang="en" >
-
-<head>
-  <meta charset="UTF-8">
-  <title>A Pen by  henriqueoliv</title>
-  
-  
-  
-      <link rel="stylesheet" href="./style.css">
-
-  
-</head>
-
-<body>
-
-  <!DOCTYPE html>
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -24,8 +8,8 @@
   </head>
   <body>
   
-    <h1 id="">Compensação Ambiental</h1>
-    <h2 id=""> Cálculo</h2> 
+    <h1 id="">Cálculo da Compensação Ambiental</h1>
+
     <h3 id=""> Grau de Impacto:</h3>
    
    
@@ -131,7 +115,8 @@
         </section>
         
          <section class = "icap">
-           <h4> Índice Comprometimento de Área Prioritária (ICAP)</h4>
+           <h4> Índice Comprometimento de Área Prioritária (ICAP</h4>
+           <a href="http://www.mma.gov.br/estruturas/chm/_arquivos/maparea.pdf" target="_blank">Mapa das áreas prioritárias para conservação</a>
            <div class= "box">
             <input type="radio" name="ICAP" id="ic0" value="0">
               <label for="ic0">0:Inexistência de impactos sobre áreas prioritárias ou impactos em áreas prioritárias totalmente sobrepostas a unidades de conservação.</label>
@@ -173,25 +158,21 @@
               <label for="iu4">G5: zonas de amortecimento de unidades de conservação = 0,05%.</label>
                </div>
          </section>
-         </br>
+        
+      
          <div class= "gridGI">
-          <button class = "button" type="button" onclick="storeVar ();calcISB ();calcCAP();calcGI();displayGI ()"> Calcular! </button> 
+            <h2 class= "vrLabel"> Valor de Referência(VR):</h2>
+             <input class = "vrText" type="number" name="vr" id="vrInput" value=""/>
+             </br>
+          <button class = "button" type="button" onclick="storeVar ();calcISB ();calcCAP();calcGI();displayGI ();  calcVr ()"> Calcular! </button> 
           
           <h2 id = "textoGI">O grau de Impacto (GI) do empreendimento é: <em id = "GI"></em></h2>
+          <h2 class= "vrLabel">O valor da compensação Ambiental é: <em id = "vr"> </em></h2>
+              
           </div>
+             
   <script src = "script.js"></script>
-  
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
   </body>
-</html>
-  
-  
-
-    <script  src="./script.js"></script>
-
-
-
-
-</body>
-
 </html>
