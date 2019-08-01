@@ -35,6 +35,13 @@
   visibility: visible;
   color: white;
 }
+  input[type = "checkbox"]:checked + label {
+  background-color: #C96567;
+  visibility: visible;
+  color: white;
+}
+
+
    .box:hover  {
      outline: 4px solid #C96567;
      transform: scale(1.1);
@@ -55,6 +62,20 @@
    }
   
     input[type = "radio"] {
+      width: 32px;
+      height: 32px;
+      order: 1;
+      z-index: 2;
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      transform: translateY(-50%);
+      cursor: pointer;
+      visibility: hidden;
+      
+    }
+
+    Input[type = "checkbox"] {
       width: 32px;
       height: 32px;
       order: 1;
@@ -165,9 +186,9 @@ html {
   font-size: 25px;
   color:white;
 }
+
 #GI {
   position: relative;
-  
   font-size: 50px;
   color: white;
 }
@@ -198,4 +219,21 @@ a {
   top:20px;
   font-size: 25px;
   color:white;
+}
+
+.report {
+   position:relative;
+  top:-60px;
+  display:grid;
+  padding: 0 20px;
+  max-width: 1000px;
+  min-width: 700px;
+  margin: 50px auto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  background-color:white;
+}
+.reportTitle {
+  color:black;
 }
